@@ -21,3 +21,8 @@
  npm run dev
  ```
  4. Access the app in browser with link http://localhost:8080
+
+ ![alt text](RegisterDemo.png)
+ ![alt text](LoginDemo.png)
+ ![alt text](HomeDemo.png)
+ ![alt text](ZoomInDemo.png)
