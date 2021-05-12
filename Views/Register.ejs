@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet</title>
+</head>
+<body>
+    <div class="container my-3" style="text-align: center;">
+        <div class="row">
+          <div class="col-6">
+            <img src="https://i.pinimg.com/originals/0f/61/ba/0f61ba72e0e12ba59d30a50295964871.png"
+            alt="image cannot be shown"
+            style="height: 100%; margin-top: 10%;"
+            >
+        </div>
+          <div class="col-6" style="background-color: rgb(116, 197, 62);padding: 10px; border-radius: 20px; width: 40%; margin: auto; margin-top: 20%;">
+            <form style="width: 80%; text-align: center; margin: auto;" method="POST" action="/login">
+                <h3>REGISTER</h3>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="Username" placeholder="name" required>
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="Email" placeholder="email" required>
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="password" name="Password" placeholder="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary" method="POST" formaction="/register">Register</button>
+              </form>
+              <br>
+              <p>Already have account? <a href="/login">Login</a></p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
