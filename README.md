@@ -4,7 +4,7 @@
 
   
 ## feature :
- - CRUD
+ - Login and register account
  - Secured by JWT with authentication and express-session
  - Back-End : Postgres, Javascript, Express, Sequelize
  - Front-End : EJS
